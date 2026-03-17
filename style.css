@@ -26,10 +26,15 @@ header ul li a{
     display: inline-block; 
     font-size: 30px;
 }
+*{
+    scroll-behavior: smooth;
+}
 .faixada {
    background-image: url(Imagens/faixada.png);
+   background-size: cover;
    background-repeat: no-repeat;
-   padding: 300px;
+   background-position: center;
+   padding: 150px;
    background-attachment: fixed ;
    
 }
@@ -94,6 +99,8 @@ header ul li a{
 }
 .SOBRE {
     background-color: #1E1E1E;
+    padding: 80px;
+
 }
 footer {
     background-color: #3b3b3b;
